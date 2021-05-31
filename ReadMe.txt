@@ -1,7 +1,7 @@
 To run the Model, Keep the data in Data folder without changing the names.
 keep the codes in src file.
 The data_analysis is a .ipynb and a .py script file.
-The train.py contains the training script of the model.
+The train.py contains the train model script .py.
 the test.py contains the test script.
 The best trained model paramters are saved as 'randomforest_weights.sav' file in src.
 These weights are used to test the model and predictions are saved as a csv file named
