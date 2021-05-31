@@ -1,0 +1,11 @@
+To run the Model, Keep the data in Data folder without changing the names.
+keep the codes in src file.
+The data_analysis is a .ipynb and a .py sciprt file.
+The train.py contains the training script of the model.
+the test.py contains the test script.
+The best trained model paramters are saved as 'randomforest_weights.sav' file in src.
+These weights are used to test the model and predictions are saved as a csv file named
+'test_predictions' in Data folder.
+The training accuracy reached is of 99.2% with a no_call_rate of 4-6.
+The no_call_rate on test data is 6.
+
