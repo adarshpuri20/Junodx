@@ -1,6 +1,16 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# ### Libararies Pip Installation
+# Install the following libraries using the pip command, if dependencies fail.
+# - pip install --upgrade pip
+# - pip install pandas
+# - pip install numpy
+# - pip install seaborn
+# - pip install sklearn
+# - pip install tensorflow
+# - pip install plotnine
+
 # In[144]:
 
 
@@ -436,3 +446,10 @@ plt.show()
 
 # In general, the idea of random forests is to reduce the variance of the predictions while retaining
 # low bias by averaging over many noisy trees.
+# The scatter plot showed that the data has outliers and is not on same scale. Using A tree based approach is prone to outliers and scaling.
+
+# After, the above analysis, I took into consideration the correlation heat map and the feature importance extracted from Tree Based classifier and chose following features for the random forest.
+# 'pred05','pred06','pred03','pred04'.
+# 
+# Although Pred02 seems good feature but for Random forest rule based appraoch it was not a favourable choice.
+# By experimentaion I observed that 'pred02' isn't adding to my model.
